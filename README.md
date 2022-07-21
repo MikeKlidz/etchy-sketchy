@@ -1,2 +1,2 @@
-# Simple project to draw sommething
+# Simple project to draw something
 ## etchy-sketchy
