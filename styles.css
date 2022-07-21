@@ -9,9 +9,9 @@
     width: 90vw;
     display: grid;
     margin-left: 5vw;
-    border: .2rem solid red;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    border: .2rem solid gray;
+    grid-template-columns: repeat(64, 1fr);
+    grid-template-rows: repeat(64, 1fr);
 }
 
 .cell {
@@ -22,4 +22,43 @@
 .btn {
     padding: .2rem;
     margin: .2rem;
+}
+
+.btn:hover, .btn:focus {
+    cursor: pointer;
+}
+
+.default {
+    background-color: black;
+    color: #fff;
+}
+
+
+.red {
+    background-color: red;
+    color: #fff;
+}
+
+.green {
+    background-color: green;
+    color: #fff;
+}
+
+.yellow {
+    background-color: yellow;
+    color: #000;
+}
+
+.blue {
+    background-color: blue;
+    color: #fff;
+}
+
+.reset {
+    padding: .2rem;
+    margin: .2rem;
+}
+
+.reset:hover, .reset:focus {
+    cursor: pointer;
 }
