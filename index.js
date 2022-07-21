@@ -1,11 +1,7 @@
 const cells = document.querySelectorAll('.cell');
 const resetButton = document.querySelector('.reset');
 const colorButtons = document.querySelectorAll('.btn');
-const redButton = document.querySelector('.red');
-const greenButton = document.querySelector('.green');
-const yellowButton = document.querySelector('.yellow');
-const blueButton = document.querySelector('.blue');
-const defaultButton = document.querySelector('.default');
+
 
 
 
